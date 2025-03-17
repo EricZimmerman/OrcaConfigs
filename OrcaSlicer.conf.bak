@@ -1,0 +1,391 @@
+{
+    "app": {
+        "allow_ip_resolve": true,
+        "associate_3mf": false,
+        "associate_step": false,
+        "associate_stl": false,
+        "auto_arrange": true,
+        "auto_calculate": true,
+        "auto_calculate_when_filament_change": true,
+        "auto_perspective": false,
+        "backup_interval": "10",
+        "backup_switch": true,
+        "camera_navigation_style": "0",
+        "check_stable_update_only": false,
+        "curr_bed_type": "3",
+        "dark_color_mode": "1",
+        "default_page": "1",
+        "developer_mode": false,
+        "download_path": "C:\\Users\\eric\\Downloads",
+        "drop_project_action": true,
+        "enable_multi_machine": false,
+        "enable_ssl_for_ftp": true,
+        "enable_ssl_for_mqtt": true,
+        "flush_multiplier": "0.300000",
+        "import_project_action": "2",
+        "installed_networking": true,
+        "internal_developer_mode": false,
+        "iot_environment": "3",
+        "keyboard_supported": "none/alt/control/shift",
+        "language": "en_US",
+        "last_backup_path": "C:\\Users\\eric\\AppData\\Local\\Temp/orcaslicer_model/Sun_Mar_16/19_13_57#7320#49",
+        "last_export_path": "/home/eric/Documents",
+        "log_severity_level": "warning",
+        "max_recent_count": "18",
+        "max_send": "3",
+        "mouse_supported": "mouse left/mouse middle/mouse right",
+        "mouse_wheel": "0",
+        "move_view": "none/mouse left",
+        "open_device_tab_post_upload": false,
+        "precise_control": "none/mouse left",
+        "preset_folder": "",
+        "print_host_queue_dialog_column_0": "80",
+        "print_host_queue_dialog_column_1": "80",
+        "print_host_queue_dialog_column_2": "80",
+        "print_host_queue_dialog_column_3": "80",
+        "print_host_queue_dialog_column_4": "80",
+        "print_host_queue_dialog_column_5": "80",
+        "print_host_queue_dialog_height": "60",
+        "print_host_queue_dialog_width": "30",
+        "print_host_queue_dialog_x": "371",
+        "print_host_queue_dialog_y": "306",
+        "privacy_version": "00.00.00.00",
+        "project_load_behaviour": "ask_when_relevant",
+        "region": "North America",
+        "remember_printer_config": true,
+        "reverse_mouse_wheel_zoom": false,
+        "rotate_view": "none/mouse left",
+        "sending_interval": "5",
+        "show_3d_navigator": true,
+        "show_build_edgets": false,
+        "show_daily_tips": true,
+        "show_drop_project_dialog": true,
+        "show_gcode_window": true,
+        "show_hints": true,
+        "show_home_page": true,
+        "show_model_mesh": false,
+        "show_model_shadow": true,
+        "show_outline": false,
+        "show_printable_box": true,
+        "show_splash_screen": true,
+        "single_instance": false,
+        "slicer_uuid": "5cb06aab-fbbf-4296-90c7-bf92e51edb29",
+        "stealth_mode": false,
+        "sync_system_preset": true,
+        "sync_user_preset": true,
+        "sys_menu_enabled": "1",
+        "tls_accepted_cert_store_location": "/etc/ssl/certs/ca-certificates.crt",
+        "tls_cert_store_accepted": "yes",
+        "toolkit_size": "100",
+        "units": "0",
+        "use_free_camera": false,
+        "use_inches": "0",
+        "use_legacy_3DConnexion": true,
+        "use_perspective_camera": true,
+        "user_mode": "advanced",
+        "version": "01.10.01.50",
+        "window_layout": "layout2|name=sidebar;caption=;state=1996;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=700;besth=900;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=main;caption=;state=256;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=20|dock_size(4,0,0)=702|",
+        "window_mainframe": "-7; -7; 3454; 1406; 1",
+        "zoom_to_mouse": false,
+        "zoom_view": "none/mouse left"
+    },
+    "arrange": {
+        "enable_rotation_fff": true
+    },
+    "custom_color_list": {
+        "10": "0,0,0,255",
+        "11": "16,16,16,255",
+        "12": "32,32,32,255",
+        "13": "48,48,48,255",
+        "14": "64,64,64,255",
+        "15": "80,80,80,255",
+        "16": "96,96,96,255",
+        "17": "112,112,112,255",
+        "18": "128,128,128,255",
+        "19": "144,144,144,255",
+        "20": "160,160,160,255",
+        "21": "176,176,176,255",
+        "22": "192,192,192,255",
+        "23": "208,208,208,255",
+        "24": "224,224,224,255",
+        "25": "240,240,240,255"
+    },
+    "filaments": [
+        "Generic ABS @System",
+        "Generic ASA @System",
+        "Generic PA @System",
+        "Generic PA-CF @System",
+        "Generic PC @System",
+        "Generic PETG @System",
+        "Generic PLA @System",
+        "Generic PLA-CF @System",
+        "Generic PVA @System",
+        "Generic TPU @System",
+        "My Generic ABS",
+        "My Generic ASA",
+        "My Generic PA",
+        "My Generic PA-CF",
+        "My Generic PC",
+        "My Generic PETG",
+        "My Generic PLA",
+        "My Generic PLA-CF",
+        "My Generic PVA",
+        "My Generic TPU",
+        "Voron Generic ABS",
+        "Voron Generic ASA",
+        "Voron Generic PC"
+    ],
+    "firstguide": {
+        "finish": true
+    },
+    "font": {
+        "active_font": "0"
+    },
+    "font:1": {
+        "depth": "1.000000",
+        "descriptor": "1;9;-12;0;0;0;400;0;0;0;1;0;0;0;0;Segoe UI",
+        "line_height": "9.000000",
+        "name": "NORMAL"
+    },
+    "font:2": {
+        "depth": "1.000000",
+        "descriptor": "1;8;-11;0;0;0;400;0;0;0;1;0;0;2;32;Arial",
+        "line_height": "8.000000",
+        "name": "SMALL"
+    },
+    "font:3": {
+        "depth": "1.000000",
+        "descriptor": "1;9;-12;0;0;0;400;1;0;0;1;0;0;2;16;Times New Roman",
+        "line_height": "9.000000",
+        "name": "ITALIC"
+    },
+    "font:4": {
+        "depth": "1.000000",
+        "descriptor": "1;9;-12;0;0;0;400;0;0;0;1;0;0;2;32;Arial",
+        "line_height": "9.000000",
+        "name": "SWISS"
+    },
+    "font:5": {
+        "depth": "1.000000",
+        "descriptor": "1;10;-13;0;0;0;700;0;0;0;1;0;0;2;48;Courier New",
+        "line_height": "10.000000",
+        "name": "MODERN"
+    },
+    "header": "OrcaSlicer 2.3.0-rc",
+    "models": [
+        {
+            "model": "Generic Klipper Printer",
+            "nozzle_diameter": "0.4",
+            "vendor": "Custom"
+        },
+        {
+            "model": "Voron 0.1",
+            "nozzle_diameter": "0.4",
+            "vendor": "Voron"
+        },
+        {
+            "model": "Voron 2.4 350",
+            "nozzle_diameter": "0.4",
+            "vendor": "Voron"
+        }
+    ],
+    "orca_presets": [
+        {
+            "curr_bed_type": "3",
+            "filament": "K3 - ezPCCF",
+            "filament_colors": "#000000",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Annex K3_2",
+            "process": "K3 - 0.20mm 0.2 Standard"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Polymaker ASA @Annex K3a 0.4 nozzle",
+            "filament_colors": "#00FF00",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Annex K3a 0.4 nozzle",
+            "process": "0.20mm 2.4 ANNEX @Annex K3a 0.4 nozzle"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Polymaker ASA @K3",
+            "filament_colors": "#00FF00",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Annex_K3_-_0.4mm",
+            "process": "K3 Standard"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Generic PLA @System",
+            "filament_colors": "#00FF00",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Annex_K3_-_0.5mm",
+            "process": "0.20mm Standard @MyKlipper"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Default Filament",
+            "filament_colors": "#26A69A",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Default Printer",
+            "process": "Default Setting"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "K3 - ezPCCF",
+            "filament_colors": "#C0C0C0",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "K3",
+            "process": "K3 - 0.20mm 0.2 Standard"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "My Generic ASA",
+            "filament_colors": "#00FF00",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "K3_a",
+            "process": "0.20mm Standard @MyKlipper"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "K3 - ezPCCF",
+            "filament_colors": "#000000",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "KK3",
+            "process": "0.20mm Standard @Voron"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Generic PLA @System",
+            "filament_colors": "#26A69A",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "MyKlipper 0.4 nozzle",
+            "process": "0.20mm Standard @MyKlipper"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "PB - Fusion 1.5 ABS",
+            "filament_colors": "#00FF80",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Pandoras Box",
+            "process": "PB - 0.20mm 0.2 Standard"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Voron Generic ABS",
+            "filament_colors": "#26A69A",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Voron 0.1 0.4 nozzle",
+            "process": "0.20mm Standard @Voron"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Voron Generic ABS",
+            "filament_colors": "#26A69A",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Voron 0.1 0.4 nozzle - Copy",
+            "process": "0.20mm Standard @Voron"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "V0 - Filamentum ABS",
+            "filament_colors": "#00FF00",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Voron 0.2",
+            "process": "02 - 0.20mm 0.2 Standard"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "24 - Fusion 1.5 ABS",
+            "filament_colors": "#00FF80",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Voron 2.4",
+            "process": "24 - 0.20mm 0.2 Standard"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Generic PLA @System",
+            "filament_colors": "#26A69A",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Voron 2.4 350 0.4 nozzle",
+            "process": "0.20mm Standard @Voron"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Generic ABS @System",
+            "filament_colors": "#000000",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "k3",
+            "process": "0.20mm Standard @Voron"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "spork - PLA",
+            "filament_colors": "#26A69A",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "k3 0.4",
+            "process": "0.20mm Standard @Voron"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "spork - PLA",
+            "filament_colors": "#26A69A",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "k3_0.5",
+            "process": "0.20mm Standard @Voron"
+        }
+    ],
+    "presets": {
+        "filaments": null,
+        "machine": "Pandoras Box"
+    },
+    "print": {
+        "bed_leveling": "1",
+        "flow_cali": "1",
+        "timelapse": "1"
+    },
+    "recent": {
+        "last_opened_folder": "S:\\Printing\\STLs\\!ToPrint",
+        "printhost_path": "",
+        "settings_folder": "/run/user/1000/gvfs/smb-share:server=formenos.zim.local,share=storage/Printing/STLs/!ToPrint/!Testing"
+    },
+    "recent_projects": {
+        "01": "/run/user/1000/gvfs/smb-share:server=formenos.zim.local,share=storage/Printing/STLs/!ToPrint/!Testing/ThorPACubes.3mf",
+        "02": "D:\\!Downloads\\2020 Slot Cover (1).3mf",
+        "03": "D:\\!Downloads\\2020 Slot Cover.3mf",
+        "04": "S:\\Printing\\Other\\!ToPrint\\!Testing\\TestFlatCube.stl",
+        "05": "D:\\!Downloads\\Belt Helper 6-9mm left part.3mf",
+        "06": "D:\\!Downloads\\Belt Helper 6-9mm left part.stl",
+        "07": "D:\\!Downloads\\MonolithR1\\Printed_9mm_2WD_XY_joint_left_a.stl",
+        "08": "D:\\!Downloads\\LL_Cam_back_Gopro.3mf",
+        "09": "C:\\Users\\eric\\Desktop\\PandoraBackpack.3mf",
+        "10": "D:\\!Downloads\\EN-MonkeyCoin.stl",
+        "11": "S:\\Printing\\Tulip.mf.3mf",
+        "12": "D:\\!Downloads\\A4T - THB Mount - WWBMG - NH36 (1).step",
+        "13": "D:\\!Downloads\\Pin Updated.3mf",
+        "14": "C:\\Users\\eric\\Desktop\\Disc.3mf",
+        "15": "C:\\Users\\eric\\Downloads\\Toothpaste_Squeezer.stl",
+        "16": "S:\\Printing\\gorilla_tag_figure_1.3mf",
+        "17": "D:\\!Downloads\\power_inlet_adamstech.stl",
+        "18": "D:\\OneDrive\\Voron\\!ToPrint\\g2zXL\\G2XL.3mf"
+    }
+}
+# MD5 checksum 4663C84FC517F96EC0333DB16D3CEF01

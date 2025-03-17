@@ -1,0 +1,66 @@
+{
+    "from": "User",
+    "inherits": "Voron 2.4 350 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_max_acceleration_e": [
+        "30000",
+        "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "30000",
+        "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "30000",
+        "5000"
+    ],
+    "machine_max_acceleration_x": [
+        "30000",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "30000",
+        "20000"
+    ],
+    "machine_max_acceleration_z": [
+        "30000",
+        "200"
+    ],
+    "machine_max_jerk_e": [
+        "50",
+        "2.5"
+    ],
+    "machine_max_jerk_x": [
+        "50",
+        "12"
+    ],
+    "machine_max_jerk_y": [
+        "50",
+        "12"
+    ],
+    "machine_max_jerk_z": [
+        "50",
+        "0.4"
+    ],
+    "machine_max_speed_e": [
+        "250",
+        "25"
+    ],
+    "machine_max_speed_x": [
+        "5000",
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "5000",
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "120",
+        "12"
+    ],
+    "machine_start_gcode": "M104 S0 ; Stops OrcaSlicer from sending temp waits separately\nM140 S0\nprint_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature] CHAMBER=[chamber_temperature]",
+    "name": "Voron 2.4",
+    "print_host": "Voron24.zim.local",
+    "printer_settings_id": "Voron 2.4",
+    "version": "2.0.2.0"
+}

@@ -1,0 +1,19 @@
+{
+    "from": "User",
+    "inherits": "Voron 0.1 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_max_jerk_x": [
+        "20",
+        "12"
+    ],
+    "machine_max_jerk_y": [
+        "20",
+        "12"
+    ],
+    "machine_start_gcode": "M104 S0 ; Stops OrcaSlicer from sending temp waits separately\nM140 S0\nprint_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature] CHAMBER=[chamber_temperature]",
+    "name": "Voron 0.2",
+    "print_host": "voron02.zim.local",
+    "printable_height": "112",
+    "printer_settings_id": "Voron 0.2",
+    "version": "2.0.2.0"
+}

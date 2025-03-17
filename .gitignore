@@ -1,0 +1,3 @@
+log/*
+plugins/*.dll
+plugins/*.so

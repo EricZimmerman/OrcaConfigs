@@ -1,0 +1,83 @@
+{
+    "bed_custom_model": "D:\\\\Printing\\\\K3_Bed_Przy_Edition.STL",
+    "bed_custom_texture": "D:\\\\Printing\\\\bed-texture.png",
+    "from": "User",
+    "inherits": "Voron 2.4 250 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_max_acceleration_e": [
+        "10000",
+        "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "50000",
+        "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "50000",
+        "5000"
+    ],
+    "machine_max_acceleration_x": [
+        "50000",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "50000",
+        "20000"
+    ],
+    "machine_max_acceleration_z": [
+        "2000",
+        "200"
+    ],
+    "machine_max_jerk_x": [
+        "100",
+        "9"
+    ],
+    "machine_max_jerk_y": [
+        "100",
+        "9"
+    ],
+    "machine_max_speed_e": [
+        "120",
+        "25"
+    ],
+    "machine_max_speed_x": [
+        "1000",
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "1000",
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "75",
+        "12"
+    ],
+    "machine_start_gcode": "M104 S0 ; Stops OrcaSlicer from sending temp waits separately\nM140 S0\nprint_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature] CHAMBER=[chamber_temperature]",
+    "name": "K3",
+    "print_host": "k3.zim.local",
+    "printable_area": [
+        "0x0",
+        "180x0",
+        "180x180",
+        "0x180"
+    ],
+    "printable_height": "165",
+    "printer_settings_id": "K3",
+    "retract_lift_enforce": [
+        "Top Only"
+    ],
+    "retraction_length": [
+        "0.4"
+    ],
+    "thumbnails": "512x512/PNG",
+    "version": "1.5.1.2",
+    "wipe": [
+        "0"
+    ],
+    "z_hop": [
+        "0.1"
+    ],
+    "z_hop_types": [
+        "Spiral Lift"
+    ]
+}
