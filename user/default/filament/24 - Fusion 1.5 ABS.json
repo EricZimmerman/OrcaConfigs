@@ -1,6 +1,6 @@
 {
     "activate_air_filtration": [
-        "1"
+        "0"
     ],
     "activate_chamber_temp_control": [
         "0"
@@ -250,7 +250,7 @@
         "0.4157"
     ],
     "pressure_advance": [
-        "0.029"
+        "0.0324"
     ],
     "reduce_fan_stop_start_freq": [
         "1"
