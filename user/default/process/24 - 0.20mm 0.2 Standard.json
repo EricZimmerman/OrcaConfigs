@@ -25,7 +25,7 @@
     "outer_wall_jerk": "10",
     "outer_wall_speed": "200",
     "post_process": [
-        "C:\\Apps\\klipper_estimator.exe  --config_moonraker_url http://voron24.zim.local post-process"
+        "D:\\Apps\\klipper_estimator.exe  --config_moonraker_url http://voron24.zim.local post-process"
     ],
     "print_order": "as_obj_list",
     "print_settings_id": "24 - 0.20mm 0.2 Standard",
@@ -38,11 +38,10 @@
     "sparse_infill_density": "40%",
     "sparse_infill_line_width": "0.4",
     "sparse_infill_speed": "500",
-    "top_solid_infill_flow_ratio": "0.962",
     "top_surface_acceleration": "4000",
     "top_surface_jerk": "10",
     "top_surface_line_width": "88%",
-    "travel_acceleration": "20000",
+    "travel_acceleration": "10000",
     "travel_jerk": "10",
     "travel_speed": "450",
     "version": "2.0.2.0",

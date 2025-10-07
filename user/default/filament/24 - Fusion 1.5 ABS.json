@@ -21,7 +21,7 @@
         "0"
     ],
     "chamber_temperature": [
-        "70"
+        "75"
     ],
     "close_fan_the_first_x_layers": [
         "3"
@@ -66,10 +66,10 @@
         "20"
     ],
     "fan_max_speed": [
-        "20"
+        "50"
     ],
     "fan_min_speed": [
-        "20"
+        "50"
     ],
     "filament_cooling_final_speed": [
         "3.4"
@@ -195,7 +195,7 @@
         "100"
     ],
     "filament_vendor": [
-        "Fusion 1.5"
+        "Fusion"
     ],
     "filament_wipe": [
         "nil"
@@ -226,6 +226,9 @@
     "internal_bridge_fan_speed": [
         "-1"
     ],
+    "ironing_fan_speed": [
+        "-1"
+    ],
     "is_custom_defined": "0",
     "name": "24 - Fusion 1.5 ABS",
     "nozzle_temperature": [
@@ -241,7 +244,7 @@
         "240"
     ],
     "overhang_fan_speed": [
-        "20"
+        "50"
     ],
     "overhang_fan_threshold": [
         "25%"
@@ -250,7 +253,7 @@
         "0.4157"
     ],
     "pressure_advance": [
-        "0.0324"
+        "0.019"
     ],
     "reduce_fan_stop_start_freq": [
         "1"
@@ -262,7 +265,7 @@
         "1"
     ],
     "slow_down_layer_time": [
-        "3"
+        "10"
     ],
     "slow_down_min_speed": [
         "20"

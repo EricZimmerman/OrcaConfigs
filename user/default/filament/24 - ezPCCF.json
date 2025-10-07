@@ -226,6 +226,9 @@
     "internal_bridge_fan_speed": [
         "-1"
     ],
+    "ironing_fan_speed": [
+        "-1"
+    ],
     "is_custom_defined": "0",
     "name": "24 - ezPCCF",
     "nozzle_temperature": [
@@ -250,7 +253,7 @@
         "0.4157"
     ],
     "pressure_advance": [
-        "0.024"
+        "0.019"
     ],
     "reduce_fan_stop_start_freq": [
         "1"

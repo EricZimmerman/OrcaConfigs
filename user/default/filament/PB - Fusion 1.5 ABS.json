@@ -21,7 +21,7 @@
         "0"
     ],
     "chamber_temperature": [
-        "50"
+        "52"
     ],
     "close_fan_the_first_x_layers": [
         "3"
@@ -63,7 +63,7 @@
         "90"
     ],
     "fan_cooling_layer_time": [
-        "20"
+        "15"
     ],
     "fan_max_speed": [
         "85"
@@ -111,7 +111,7 @@
         "nil"
     ],
     "filament_max_volumetric_speed": [
-        "13"
+        "40"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "15"
@@ -229,10 +229,10 @@
     "is_custom_defined": "0",
     "name": "PB - Fusion 1.5 ABS",
     "nozzle_temperature": [
-        "270"
+        "265"
     ],
     "nozzle_temperature_initial_layer": [
-        "270"
+        "265"
     ],
     "nozzle_temperature_range_high": [
         "285"

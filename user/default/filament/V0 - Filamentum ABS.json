@@ -63,13 +63,13 @@
         "90"
     ],
     "fan_cooling_layer_time": [
-        "30"
+        "20"
     ],
     "fan_max_speed": [
-        "50"
+        "85"
     ],
     "fan_min_speed": [
-        "50"
+        "85"
     ],
     "filament_cooling_final_speed": [
         "3.4"
@@ -111,7 +111,7 @@
         "nil"
     ],
     "filament_max_volumetric_speed": [
-        "32"
+        "40"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "15"

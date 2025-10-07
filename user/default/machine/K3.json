@@ -52,8 +52,11 @@
         "75",
         "12"
     ],
-    "machine_start_gcode": "M104 S0 ; Stops OrcaSlicer from sending temp waits separately\nM140 S0\nprint_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature] CHAMBER=[chamber_temperature]",
+    "machine_start_gcode": "M104 S0 ; Stops OrcaSlicer from sending temp waits separately\nM140 S0\n;print_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature] CHAMBER=[chamber_temperature]\n\nPRINT_START BED=[first_layer_bed_temperature] EXTRUDER=[first_layer_temperature]  MATERIAL=\"[filament_type]\" FILAMENT=\"[filament_settings_id]\" NOZZLE={nozzle_diameter[0]} CHAMBER=[chamber_temperature]\n",
     "name": "K3",
+    "nozzle_diameter": [
+        "0.5"
+    ],
     "print_host": "k3.zim.local",
     "printable_area": [
         "0x0",
