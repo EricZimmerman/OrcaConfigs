@@ -2,6 +2,10 @@
     "device_error": {
         "en": [
             {
+                "ecode": "0C00402C",
+                "intro": "Device data link error. Please reboot the printer"
+            },
+            {
                 "ecode": "05004031",
                 "intro": "The accessory firmware does not match the printer. Please update it on the \"Firmware\" page."
             },
@@ -48,6 +52,10 @@
             {
                 "ecode": "0501409D",
                 "intro": "The firmware of AMS B does not match the printer; the device cannot continue working. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "05004016",
+                "intro": "The MicroSD Card is write-protected. Please replace the MicroSD Card"
             },
             {
                 "ecode": "07024025",
@@ -1162,10 +1170,6 @@
                 "intro": "The printer has already been bound. Please unbind it and try again."
             },
             {
-                "ecode": "05004016",
-                "intro": "The MicroSD Card is write-protected. Please replace the MicroSD Card."
-            },
-            {
                 "ecode": "05004029",
                 "intro": "Cloud access is rejected. If you have tried multiple times and are still failing, please contact customer support."
             },
@@ -1658,10 +1662,6 @@
                 "intro": "AMS A is assisting in filament insertion. Unable to start drying. Please try again later."
             },
             {
-                "ecode": "0C00402C",
-                "intro": "Device data link error. Please reboot the printer."
-            },
-            {
                 "ecode": "03008005",
                 "intro": "Toolhead front cover fell off. Please remount the front cover and check to make sure your print is going okay."
             },
@@ -1938,7 +1938,7 @@
                 "intro": "The cutter is stuck. Please make sure the cutter handle is out and check the filament sensor cable connection."
             }
         ],
-        "ver": 202509291200
+        "ver": 202510151800
     },
     "device_hms": {
         "en": [
@@ -2037,6 +2037,10 @@
             {
                 "ecode": "0702220000010082",
                 "intro": "Failed to read the filament information from AMS C slot 3. A third party RFID tag was detected."
+            },
+            {
+                "ecode": "0C0003000002000C",
+                "intro": "The build plate localization marker was not detected. Please check if the build plate is aligned correctly"
             },
             {
                 "ecode": "1802220000010082",
@@ -2321,6 +2325,14 @@
             {
                 "ecode": "0581040000010045",
                 "intro": "The firmware of AMS-HT B does not match the printer. Please update it on the \"Firmware\" page."
+            },
+            {
+                "ecode": "050003000002000D",
+                "intro": "The SD Card controller is malfunctioning"
+            },
+            {
+                "ecode": "0C0003000001000A",
+                "intro": "Your printer is in factory mode. Please contact Technical Support."
             },
             {
                 "ecode": "0C00020000010005",
@@ -10907,10 +10919,6 @@
                 "intro": "AMS-HT B slot 2 assist motor is stalled，due to excessive resistance in the tube near the filament buffer。"
             },
             {
-                "ecode": "050003000002000D",
-                "intro": "The SD Card controller is malfunctioning."
-            },
-            {
                 "ecode": "1806220000010084",
                 "intro": "Failed to read the filament information from AMS-HT G slot 3. The RFID tag may be damaged or positioned at the edge of the RFID detection device. Please remove 5cm filament and try again."
             },
@@ -13735,10 +13743,6 @@
                 "intro": "Failed to read the filament information from AMS-HT F slot 2. RFID tag verification failed. You can try to use Bambu Lab filament."
             },
             {
-                "ecode": "0C0003000001000A",
-                "intro": "Your printer is in factory mode. Please contact Technical Support."
-            },
-            {
                 "ecode": "0703100000010001",
                 "intro": "The AMS D slot 1 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
             },
@@ -14133,10 +14137,6 @@
             {
                 "ecode": "1805010000020007",
                 "intro": "AMS-HT F The assist motor encoder wires are not connected. The assist motor connector may have poor contact."
-            },
-            {
-                "ecode": "0C0003000002000C",
-                "intro": "The build plate localization marker was not detected. Please check if the build plate is aligned correctly."
             },
             {
                 "ecode": "1807010000010003",
@@ -18543,7 +18543,7 @@
                 "intro": "External disturbance was detected on the heatbed acceleeration sensor. The sensor signal wire may not be affixed."
             }
         ],
-        "ver": 202509291200
+        "ver": 202510151800
     },
-    "version": "202509291200"
+    "version": "202510151800"
 }

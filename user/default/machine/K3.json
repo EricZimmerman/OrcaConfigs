@@ -1,6 +1,6 @@
 {
-    "bed_custom_model": "D:\\\\Printing\\\\K3_Bed_Przy_Edition.STL",
-    "bed_custom_texture": "D:\\\\Printing\\\\bed-texture.png",
+    "bed_custom_model": "D:\\\\Apps\\\\K3_Bed_Przy_Edition.STL",
+    "bed_custom_texture": "D:\\\\Apps\\\\bed-texture.png",
     "from": "User",
     "inherits": "Voron 2.4 250 0.4 nozzle",
     "is_custom_defined": "0",

@@ -66,10 +66,10 @@
         "35"
     ],
     "fan_max_speed": [
-        "30"
+        "40"
     ],
     "fan_min_speed": [
-        "30"
+        "40"
     ],
     "filament_cooling_final_speed": [
         "3.4"
@@ -186,7 +186,7 @@
         "0"
     ],
     "filament_type": [
-        "ASA"
+        "ASA-CF"
     ],
     "filament_unloading_speed": [
         "90"
@@ -244,7 +244,7 @@
         "240"
     ],
     "overhang_fan_speed": [
-        "30"
+        "40"
     ],
     "overhang_fan_threshold": [
         "25%"

@@ -1,5 +1,5 @@
 {
-    "bottom_shell_layers": "4",
+    "bottom_shell_layers": "5",
     "bridge_density": "75%",
     "bridge_flow": "0.9",
     "brim_type": "no_brim",
@@ -36,6 +36,7 @@
     "sparse_infill_density": "40%",
     "sparse_infill_line_width": "0.4",
     "sparse_infill_speed": "400",
+    "top_shell_layers": "5",
     "top_surface_acceleration": "4600",
     "top_surface_jerk": "12",
     "top_surface_line_width": "88%",

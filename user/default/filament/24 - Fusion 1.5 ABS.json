@@ -21,7 +21,7 @@
         "0"
     ],
     "chamber_temperature": [
-        "75"
+        "60"
     ],
     "close_fan_the_first_x_layers": [
         "3"
@@ -66,10 +66,10 @@
         "20"
     ],
     "fan_max_speed": [
-        "50"
+        "40"
     ],
     "fan_min_speed": [
-        "50"
+        "40"
     ],
     "filament_cooling_final_speed": [
         "3.4"
@@ -96,7 +96,7 @@
         "; filament end gcode \nM106 P3 S0\n"
     ],
     "filament_flow_ratio": [
-        "0.962"
+        "0.979"
     ],
     "filament_is_support": [
         "0"
@@ -244,7 +244,7 @@
         "240"
     ],
     "overhang_fan_speed": [
-        "50"
+        "40"
     ],
     "overhang_fan_threshold": [
         "25%"

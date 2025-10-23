@@ -30,7 +30,9 @@
         "Voron 2.4"
     ],
     "compatible_printers_condition": "",
-    "compatible_prints": [],
+    "compatible_prints": [
+        "24 - 0.25mm 0.25 ezPCCF_PPSCF"
+    ],
     "compatible_prints_condition": "",
     "complete_print_exhaust_fan_speed": [
         "70"
