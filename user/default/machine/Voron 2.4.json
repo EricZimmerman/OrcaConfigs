@@ -60,6 +60,9 @@
     ],
     "machine_start_gcode": "M104 S0 ; Stops OrcaSlicer from sending temp waits separately\nM140 S0\n;print_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature] CHAMBER=[chamber_temperature]\n\nPRINT_START BED=[first_layer_bed_temperature] EXTRUDER=[first_layer_temperature]  MATERIAL=\"[filament_type]\" FILAMENT=\"[filament_settings_id]\" NOZZLE={nozzle_diameter[0]} CHAMBER=[chamber_temperature]",
     "name": "Voron 2.4",
+    "nozzle_diameter": [
+        "0.5"
+    ],
     "print_host": "192.168.1.60",
     "printer_settings_id": "Voron 2.4",
     "version": "2.0.2.0"

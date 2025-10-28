@@ -2,6 +2,69 @@
     "data": [
         {
             "actions": [
+                5,
+                27
+            ],
+            "device": "22E",
+            "ecode": "0500403C",
+            "image": ""
+        },
+        {
+            "actions": [
+                5,
+                27
+            ],
+            "device": "00W",
+            "ecode": "0500403C",
+            "image": ""
+        },
+        {
+            "actions": [
+                5,
+                27
+            ],
+            "device": "00M",
+            "ecode": "0500403C",
+            "image": ""
+        },
+        {
+            "actions": [
+                5,
+                27
+            ],
+            "device": "03W",
+            "ecode": "0500403C",
+            "image": ""
+        },
+        {
+            "actions": [
+                5,
+                27
+            ],
+            "device": "093",
+            "ecode": "0500403C",
+            "image": ""
+        },
+        {
+            "actions": [
+                5,
+                27
+            ],
+            "device": "01S",
+            "ecode": "0500403C",
+            "image": ""
+        },
+        {
+            "actions": [
+                5,
+                27
+            ],
+            "device": "01P",
+            "ecode": "0500403C",
+            "image": ""
+        },
+        {
+            "actions": [
                 9
             ],
             "device": "039",
@@ -11647,5 +11710,5 @@
             "image": ""
         }
     ],
-    "version": "202510142134"
+    "version": "202510220957"
 }

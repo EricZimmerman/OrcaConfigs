@@ -186,7 +186,7 @@
         "0"
     ],
     "filament_type": [
-        "PC-CF"
+        "ezPC-CF"
     ],
     "filament_unloading_speed": [
         "90"
@@ -224,6 +224,9 @@
     ],
     "inherits": "Voron Generic TPU",
     "internal_bridge_fan_speed": [
+        "-1"
+    ],
+    "ironing_fan_speed": [
         "-1"
     ],
     "is_custom_defined": "0",

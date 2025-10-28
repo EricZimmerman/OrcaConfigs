@@ -32,8 +32,8 @@
         "is_split_compound": false,
         "keyboard_supported": "none/alt/control/shift",
         "language": "en_US",
-        "last_backup_path": "C:\\Users\\eric\\AppData\\Local\\Temp/orcaslicer_model/Mon_Oct_20/15_57_53#18344#50",
-        "last_export_path": "C:\\Users\\eric\\Downloads\\BlackSeriesATSTbyRendeRboy3d",
+        "last_backup_path": "C:\\Users\\eric\\AppData\\Local\\Temp/orcaslicer_model/Mon_Oct_27/20_04_20#20124#50",
+        "last_export_path": "C:\\Users\\eric\\Desktop",
         "legacy_networking": true,
         "linear_defletion": "0.003",
         "log_severity_level": "warning",
@@ -352,12 +352,12 @@
         },
         {
             "curr_bed_type": "3",
-            "filament": "K3_Ambrosia_ASA-CF",
-            "filament_colors": "#00FF00",
+            "filament": "K3 - ezPCCF",
+            "filament_colors": "#C0C0C0",
             "flush_volumes_matrix": "0.000000",
             "flush_volumes_vector": "140.000000|140.000000",
             "machine": "K3",
-            "process": "K3 - 0.25mm 0.25 Standard"
+            "process": "K3 - 0.25mm 0.25 ezPCCF-PPSCF"
         },
         {
             "curr_bed_type": "3",
@@ -388,7 +388,7 @@
         },
         {
             "curr_bed_type": "3",
-            "filament": "PB - Fusion 1.5 ABS",
+            "filament": "PB - Fusion 1.5 HT ABS",
             "filament_colors": "#00FF80",
             "flush_volumes_matrix": "0.000000",
             "flush_volumes_vector": "140.000000|140.000000",
@@ -433,12 +433,12 @@
         },
         {
             "curr_bed_type": "3",
-            "filament": "24 - Fusion 1.5 ABS",
-            "filament_colors": "#00FF80",
+            "filament": "24 - ezPCCF",
+            "filament_colors": "#000000",
             "flush_volumes_matrix": "0.000000",
             "flush_volumes_vector": "140.000000|140.000000",
             "machine": "Voron 2.4",
-            "process": "24 - 0.25mm 0.25 Standard"
+            "process": "24 - 0.25mm 0.25 ezPCCF_PPSCF"
         },
         {
             "curr_bed_type": "3",
@@ -479,7 +479,7 @@
     ],
     "presets": {
         "filaments": null,
-        "machine": "K3"
+        "machine": "Pandoras Box"
     },
     "print": {
         "bed_leveling": "1",
@@ -487,29 +487,29 @@
         "timelapse": "1"
     },
     "recent": {
-        "last_opened_folder": "D:\\!Downloads\\Bottle holder for multiboard with multipoint",
+        "last_opened_folder": "D:\\!Downloads",
         "printhost_path": "",
-        "settings_folder": "D:\\!Downloads"
+        "settings_folder": "C:\\Users\\eric\\Desktop"
     },
     "recent_projects": {
-        "01": "D:\\!Downloads\\Heavy Duty Tile Shelf - Plate 2.3mf",
-        "02": "D:\\!Downloads\\BlackSeriesATSTbyRendeRboy3d\\atst.3mf",
-        "03": "C:\\Users\\eric\\Downloads\\BlackSeriesATSTbyRendeRboy3d\\atst.3mf",
-        "04": "C:\\Users\\eric\\Downloads\\Demo Pack Parts 2 - Plate 3.3mf",
-        "05": "C:\\Users\\eric\\Downloads\\Multiboard Demo Pack - Blank Label.3mf",
-        "06": "C:\\Users\\eric\\Downloads\\Multiboard Demo Pack - Parts 1.3mf",
-        "07": "C:\\Users\\eric\\Downloads\\Multiboard Demo Pack - 6x6 Tile.3mf",
-        "08": "S:\\Printing\\STLs\\!ToPrint\\!Testing\\ThorPACubes.3mf",
-        "09": "C:\\Users\\eric\\Downloads\\Qidi_PPS-GF25.3mf",
-        "10": "D:\\!Downloads\\Filament Spool Updated.3mf",
-        "11": "D:\\!Downloads\\Inside Mount.3mf",
-        "12": "/run/user/1000/gvfs/smb-share:server=formenos.zim.local,share=storage/Printing/STLs/!ToPrint/!Testing/ThorPACubes.3mf",
-        "13": "D:\\!Downloads\\2020 Slot Cover (1).3mf",
-        "14": "D:\\!Downloads\\2020 Slot Cover.3mf",
-        "15": "S:\\Printing\\Other\\!ToPrint\\!Testing\\TestFlatCube.stl",
-        "16": "D:\\!Downloads\\Belt Helper 6-9mm left part.3mf",
-        "17": "D:\\!Downloads\\Belt Helper 6-9mm left part.stl",
-        "18": "D:\\!Downloads\\MonolithR1\\Printed_9mm_2WD_XY_joint_left_a.stl"
+        "01": "C:\\Users\\eric\\Desktop\\R1_PLA_EZPCCF.3mf",
+        "02": "D:\\!Downloads\\Heavy Duty Tile Shelf - Plate 2.3mf",
+        "03": "D:\\!Downloads\\BlackSeriesATSTbyRendeRboy3d\\atst.3mf",
+        "04": "C:\\Users\\eric\\Downloads\\BlackSeriesATSTbyRendeRboy3d\\atst.3mf",
+        "05": "C:\\Users\\eric\\Downloads\\Demo Pack Parts 2 - Plate 3.3mf",
+        "06": "C:\\Users\\eric\\Downloads\\Multiboard Demo Pack - Blank Label.3mf",
+        "07": "C:\\Users\\eric\\Downloads\\Multiboard Demo Pack - Parts 1.3mf",
+        "08": "C:\\Users\\eric\\Downloads\\Multiboard Demo Pack - 6x6 Tile.3mf",
+        "09": "S:\\Printing\\STLs\\!ToPrint\\!Testing\\ThorPACubes.3mf",
+        "10": "C:\\Users\\eric\\Downloads\\Qidi_PPS-GF25.3mf",
+        "11": "D:\\!Downloads\\Filament Spool Updated.3mf",
+        "12": "D:\\!Downloads\\Inside Mount.3mf",
+        "13": "/run/user/1000/gvfs/smb-share:server=formenos.zim.local,share=storage/Printing/STLs/!ToPrint/!Testing/ThorPACubes.3mf",
+        "14": "D:\\!Downloads\\2020 Slot Cover (1).3mf",
+        "15": "D:\\!Downloads\\2020 Slot Cover.3mf",
+        "16": "S:\\Printing\\Other\\!ToPrint\\!Testing\\TestFlatCube.stl",
+        "17": "D:\\!Downloads\\Belt Helper 6-9mm left part.3mf",
+        "18": "D:\\!Downloads\\Belt Helper 6-9mm left part.stl"
     }
 }
-# MD5 checksum 375C2C23A656FA689D208258F0E26E35
+# MD5 checksum CCF68CD8FD9774D4BA9414A79D699475
