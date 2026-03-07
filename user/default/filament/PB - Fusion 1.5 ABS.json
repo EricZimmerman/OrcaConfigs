@@ -214,16 +214,19 @@
         "0"
     ],
     "hot_plate_temp": [
-        "115"
+        "105"
     ],
     "hot_plate_temp_initial_layer": [
-        "115"
+        "105"
     ],
     "idle_temperature": [
         "0"
     ],
     "inherits": "Voron Generic ABS",
     "internal_bridge_fan_speed": [
+        "-1"
+    ],
+    "ironing_fan_speed": [
         "-1"
     ],
     "is_custom_defined": "0",

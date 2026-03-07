@@ -30,7 +30,9 @@
         "Voron 2.4"
     ],
     "compatible_printers_condition": "",
-    "compatible_prints": [],
+    "compatible_prints": [
+        "24 - 0.25mm 0.25 Standard"
+    ],
     "compatible_prints_condition": "",
     "complete_print_exhaust_fan_speed": [
         "70"
@@ -214,10 +216,10 @@
         "0"
     ],
     "hot_plate_temp": [
-        "115"
+        "105"
     ],
     "hot_plate_temp_initial_layer": [
-        "115"
+        "105"
     ],
     "idle_temperature": [
         "0"

@@ -1,4 +1,5 @@
 {
+    "bed_custom_model": "S:\\\\Printing\\\\STLs\\\\V24_350mm_bed_model.stl",
     "from": "User",
     "inherits": "Voron 2.4 350 0.4 nozzle",
     "is_custom_defined": "0",
@@ -58,7 +59,7 @@
         "120",
         "12"
     ],
-    "machine_start_gcode": "M104 S0 ; Stops OrcaSlicer from sending temp waits separately\nM140 S0\n;print_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature] CHAMBER=[chamber_temperature]\n\nPRINT_START BED=[first_layer_bed_temperature] EXTRUDER=[first_layer_temperature]  MATERIAL=\"[filament_type]\" FILAMENT=\"[filament_settings_id]\" NOZZLE={nozzle_diameter[0]} CHAMBER=[chamber_temperature]",
+    "machine_start_gcode": "M104 S0 ; Stops OrcaSlicer from sending temp waits separately\nM140 S0\n\nPRINT_START BED=[first_layer_bed_temperature] EXTRUDER=[first_layer_temperature]  MATERIAL=\"[filament_type]\" FILAMENT=\"[filament_settings_id]\" NOZZLE={nozzle_diameter[0]} CHAMBER=[chamber_temperature]",
     "name": "Voron 2.4",
     "nozzle_diameter": [
         "0.5"
