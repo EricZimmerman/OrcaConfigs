@@ -21,7 +21,6 @@
     "internal_bridge_flow": "0.9",
     "internal_solid_infill_line_width": "130%",
     "internal_solid_infill_speed": "250",
-    "is_custom_defined": "0",
     "line_width": "130%",
     "name": "PB - 0.20mm 0.2 Standard",
     "only_one_wall_top": "1",
@@ -29,8 +28,11 @@
     "outer_wall_jerk": "12",
     "outer_wall_line_width": "130%",
     "outer_wall_speed": "150",
-    "post_process": [
-        "D:\\Apps\\klipper_estimator.exe --config_moonraker_url http://voronpb.zim.local post-process"
+    "print_extruder_id": [
+        "1"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard"
     ],
     "print_order": "as_obj_list",
     "print_settings_id": "PB - 0.20mm 0.2 Standard",
