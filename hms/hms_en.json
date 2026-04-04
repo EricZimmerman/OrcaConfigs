@@ -2062,7 +2062,11 @@
                 "intro": "The filament specified in the slicer has been used up. Printing is paused. Please go to the machine to replace the material and resume printing."
             }
         ],
+<<<<<<< HEAD
         "ver": 202603041659
+=======
+        "ver": 202603061650
+>>>>>>> 626773cb0949374ea9314584816e801a52c74dfa
     },
     "device_hms": {
         "en": [
@@ -18139,7 +18143,13 @@
                 "intro": "AMS-HT A The coil resistance of exhaust valve 1 is abnormal, which may be due to abnormal wiring or damage."
             }
         ],
+<<<<<<< HEAD
         "ver": 202603041659
     },
     "version": "202603041659"
+=======
+        "ver": 202603061650
+    },
+    "version": "202603061650"
+>>>>>>> 626773cb0949374ea9314584816e801a52c74dfa
 }
