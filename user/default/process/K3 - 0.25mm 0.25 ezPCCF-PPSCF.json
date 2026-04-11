@@ -1,7 +1,7 @@
 {
     "bottom_shell_layers": "5",
-    "bridge_density": "75%",
-    "bridge_flow": "0.9",
+    "bridge_density": "105%",
+    "bridge_flow": "1.2",
     "bridge_speed": "40",
     "brim_type": "no_brim",
     "brim_width": "2",
@@ -21,11 +21,9 @@
     "inner_wall_jerk": "20",
     "inner_wall_line_width": "130%",
     "inner_wall_speed": "80",
-    "internal_bridge_density": "80%",
-    "internal_bridge_flow": "0.9",
+    "internal_bridge_flow": "1.2",
     "internal_solid_infill_line_width": "110%",
     "internal_solid_infill_speed": "100",
-    "is_custom_defined": "0",
     "line_width": "110%",
     "name": "K3 - 0.25mm 0.25 ezPCCF-PPSCF",
     "only_one_wall_top": "1",
@@ -37,6 +35,12 @@
     "overhang_2_4_speed": "0",
     "overhang_3_4_speed": "60",
     "overhang_4_4_speed": "40",
+    "print_extruder_id": [
+        "1"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard"
+    ],
     "print_order": "as_obj_list",
     "print_settings_id": "K3 - 0.25mm 0.25 ezPCCF-PPSCF",
     "seam_gap": "2%",

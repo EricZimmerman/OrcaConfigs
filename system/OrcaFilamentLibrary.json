@@ -1,10 +1,6 @@
 {
     "name": "OrcaFilamentLibrary",
-<<<<<<< HEAD
-    "version": "02.03.02.50",
-=======
     "version": "02.03.02.60",
->>>>>>> 626773cb0949374ea9314584816e801a52c74dfa
     "force_update": "0",
     "description": "Orca Filament Library",
     "filament_list": [
@@ -1341,8 +1337,6 @@
             "sub_path": "filament/eSUN/eSUN PLA+ @System.json"
         },
         {
-<<<<<<< HEAD
-=======
             "name": "eSUN PLA-Basic @System",
             "sub_path": "filament/eSUN/eSUN PLA-Basic @System.json"
         },
@@ -1355,7 +1349,6 @@
             "sub_path": "filament/eSUN/eSUN PLA-Matte @System.json"
         },
         {
->>>>>>> 626773cb0949374ea9314584816e801a52c74dfa
             "name": "COEX PLA+Silk @base",
             "sub_path": "filament/COEX/COEX PLA+Silk @base.json"
         },

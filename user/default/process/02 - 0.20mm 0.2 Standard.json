@@ -1,11 +1,12 @@
 {
     "bottom_shell_layers": "4",
-    "bridge_density": "75%",
-    "bridge_flow": "0.9",
+    "bridge_density": "105%",
+    "bridge_flow": "1.2",
     "brim_type": "no_brim",
     "brim_width": "2",
     "default_acceleration": "10000",
     "default_jerk": "12",
+    "enable_extra_bridge_layer": "external_bridge_only",
     "enable_overhang_speed": "0",
     "from": "User",
     "infill_wall_overlap": "15%",
@@ -16,15 +17,18 @@
     "inner_wall_acceleration": "10000",
     "inner_wall_jerk": "12",
     "inner_wall_speed": "250",
+    "internal_bridge_flow": "1.2",
     "internal_solid_infill_speed": "250",
-    "is_custom_defined": "0",
     "name": "02 - 0.20mm 0.2 Standard",
     "only_one_wall_top": "1",
     "outer_wall_acceleration": "10000",
     "outer_wall_jerk": "12",
     "outer_wall_speed": "150",
-    "post_process": [
-        "D:\\Apps\\klipper_estimator.exe --config_moonraker_url http://voron02.zim.local post-process"
+    "print_extruder_id": [
+        "1"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard"
     ],
     "print_order": "as_obj_list",
     "print_settings_id": "02 - 0.20mm 0.2 Standard",

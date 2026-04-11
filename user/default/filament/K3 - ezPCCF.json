@@ -31,7 +31,8 @@
     ],
     "compatible_printers_condition": "",
     "compatible_prints": [
-        "K3 - 0.25mm 0.25 ezPCCF-PPSCF"
+        "K3 - 0.25mm 0.25 ezPCCF-PPSCF",
+        "K3 - 0.2mm 0.2 ezPCCF-PPSCF"
     ],
     "compatible_prints_condition": "",
     "complete_print_exhaust_fan_speed": [
@@ -73,6 +74,15 @@
     "fan_min_speed": [
         "20"
     ],
+    "filament_adaptive_volumetric_speed": [
+        "0"
+    ],
+    "filament_adhesiveness_category": [
+        "0"
+    ],
+    "filament_change_length": [
+        "10"
+    ],
     "filament_cooling_final_speed": [
         "3.4"
     ],
@@ -97,8 +107,29 @@
     "filament_end_gcode": [
         "; filament end gcode \n\n"
     ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
     "filament_flow_ratio": [
         "0.927"
+    ],
+    "filament_flush_temp": [
+        "0"
+    ],
+    "filament_flush_volumetric_speed": [
+        "0"
+    ],
+    "filament_ironing_flow": [
+        "nil"
+    ],
+    "filament_ironing_inset": [
+        "nil"
+    ],
+    "filament_ironing_spacing": [
+        "nil"
+    ],
+    "filament_ironing_speed": [
+        "nil"
     ],
     "filament_is_support": [
         "0"
@@ -130,6 +161,9 @@
     "filament_notes": [
         ""
     ],
+    "filament_printable": [
+        "3"
+    ],
     "filament_ramming_parameters": [
         "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
     ],
@@ -155,7 +189,7 @@
         "nil"
     ],
     "filament_retraction_length": [
-        "nil"
+        "0.4"
     ],
     "filament_retraction_minimum_travel": [
         "nil"
@@ -186,6 +220,21 @@
     ],
     "filament_toolchange_delay": [
         "0"
+    ],
+    "filament_tower_interface_pre_extrusion_dist": [
+        "10"
+    ],
+    "filament_tower_interface_pre_extrusion_length": [
+        "0"
+    ],
+    "filament_tower_interface_print_temp": [
+        "-1"
+    ],
+    "filament_tower_interface_purge_volume": [
+        "20"
+    ],
+    "filament_tower_ironing_area": [
+        "4"
     ],
     "filament_type": [
         "ezPC-CF"
@@ -231,7 +280,9 @@
     "ironing_fan_speed": [
         "-1"
     ],
-    "is_custom_defined": "0",
+    "long_retractions_when_ec": [
+        "0"
+    ],
     "name": "K3 - ezPCCF",
     "nozzle_temperature": [
         "300"
@@ -262,6 +313,9 @@
     ],
     "required_nozzle_HRC": [
         "3"
+    ],
+    "retraction_distances_when_ec": [
+        "10"
     ],
     "slow_down_for_layer_cooling": [
         "1"
@@ -296,5 +350,8 @@
     "textured_plate_temp_initial_layer": [
         "35"
     ],
-    "version": "1.5.1.2"
+    "version": "1.5.1.2",
+    "volumetric_speed_coefficients": [
+        ""
+    ]
 }
