@@ -2,7 +2,6 @@
     "bed_custom_model": "S:\\\\Printing\\\\STLs\\\\V24_350mm_bed_model.stl",
     "from": "User",
     "inherits": "Voron 2.4 350 0.4 nozzle",
-    "is_custom_defined": "0",
     "machine_max_acceleration_e": [
         "30000",
         "5000"
@@ -65,6 +64,13 @@
         "0.5"
     ],
     "print_host": "192.168.1.60",
+    "printer_agent": "orca",
+    "printer_extruder_id": [
+        "1"
+    ],
+    "printer_extruder_variant": [
+        "Direct Drive Standard"
+    ],
     "printer_settings_id": "Voron 2.4",
     "version": "2.0.2.0"
 }
